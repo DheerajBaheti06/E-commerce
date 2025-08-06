@@ -1,0 +1,37 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "A MERN Stack E-commerce website backend.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DheerajBaheti06/E-commerce.git",
+    "directory": "backend"
+  },
+  "keywords": [
+    "javascript",
+    "node.js",
+    "express",
+    "mongoose"
+  ],
+  "author": "Dheeraj Baheti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DheerajBaheti06/E-commerce/issues"
+  },
+  "homepage": "https://github.com/DheerajBaheti06/E-commerce/tree/main/backend#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  }
+}
