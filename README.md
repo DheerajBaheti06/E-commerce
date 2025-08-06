@@ -1,2 +1,2 @@
 # E-commerce
-An E-commerce Website using MERN Stack.
+An E-commerce Website using MERN Stack
